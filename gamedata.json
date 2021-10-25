@@ -771,7 +771,6 @@
 			"horse_timer":"You have 60 seconds to capture the horse.  Good luck!",
 			"horse_escaped":"The Horse Evaded Capture.",
 			"horse_caught":"You Captured the Horse!",
-			"horse_cannot_catch_max":"You have reached your maximum number of horses. Build a barn on a ranch to have more!",
 			"horse_escaped_anyway":"Your lasso must have slipped?! The horse still got away!!",
 			"too_many_horses":"You cannot manage any more horses.",
 			"horses_menu":"^ATYour Horses^H<B>You can have up to %MAXHORSE% horses. Here are your %TOTALHORSE%:</B><BR>",
@@ -886,8 +885,10 @@
 				"height_range":"<BR>Average Height Range: %MIN%-%MAX% hands<BR>",
 				"possible_colors":"<BR>Possible Colors: %COLORS%<BR>",
 				"release_horse":"^D8|RELEASE %TYPE%^R1",
-				"other_horses":"^LOther Horses Owned:^R1"
+				"other_horses":"^LOther Horses Owned:^R1",
 				
+				"horse_cannot_catch_max":"You have reached your maximum number of horses. Build a barn on a ranch to have more!"
+			
 			},
 			"tack_menu":{
 				"tacked_as_follows":"<B>%NAME% is currently tacked as follows:</B><BR>",
