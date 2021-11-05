@@ -567,7 +567,7 @@
 			"placing":"<B>%PLACE%</B> player %USERNAME% scored: %SCORE%<BR>",
 			"first_place":"First place:",
 			"second_place":"Second place:",
-			"third_place":"Third place",
+			"third_place":"Third place:",
 			"fourth_place":"Fourth place:",
 			"fifth_place":"Fifth place:",
 			"sixth_place":"Sixth place:",
