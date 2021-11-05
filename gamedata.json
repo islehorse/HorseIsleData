@@ -238,6 +238,12 @@
 			"only_unicorn":"Only a ridden unicorn can respond to such a request.",
 			"location_unknown":"Unicorn Failed to understand location or player name to warp to."
 		},
+		"prison_isle":{
+			"x":45,
+			"y":33,
+			"message":"You have been sent to prison by a Moderator.",
+			"command_msg":"<B>%USERNAME% Sent to prison.</B>"
+		},
 		"rules_isle":{
 			"x":17,
 			"y":17,
