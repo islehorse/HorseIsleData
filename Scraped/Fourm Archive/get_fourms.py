@@ -1,7 +1,7 @@
 1
 import requests, threading
 s = requests.Session()
-s.headers = {"Cookie":"PHPSESSID=ve8og4p8lk3f163bmu0d90j665"}
+s.headers = {"Cookie":"PHPSESSID=l028vch3bhb9ii1vkthoo777d5"}
 
 
 class t(threading.Thread):
@@ -17,14 +17,13 @@ class t(threading.Thread):
                 continue
             break
         if tContents.find(b'Forum thread not found!?') != -1:
-            pass
-            #print(f"No such forum id: {i}\n",end="")
+            print(f"No such forum id: {i}\n",end="")
         else:
             print(f"forum id found: {i}\n", end="")
             open(f"{self.i}.html", "wb").write(tContents)
         sem.release()
 
-sem = threading.BoundedSemaphore(100)
+sem = threading.BoundedSemaphore(50)
 
 i = 0
 while True:
