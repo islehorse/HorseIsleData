@@ -991,6 +991,7 @@
 		"awards_page":{
 			"awards_header":"^ATYour Awards Earned^H",
 			"no_awards":"<BR>You have not earned any awards yet. You can view a list of earnable awards in a Horse Isle Library.",
+			"awards_others_head":"^LAwards Earned by %USERNAME%:^R1",
 			"award_format":"^I%ICON%^T8 %NAME% ($%BONUS% bonus)^R1"
 		},
 		"highscores":{
@@ -1056,10 +1057,11 @@
 			"hear_button":"^B1H%PLAYERID%",
 			"icon_info":"^L [Star = Subscriber]   [A = Admin]   [M = Moderator]^R1",
 			"idle_text":"(IDLE)",
+			"icon_subbed_month":418,
 			"icon_subbed_3month":415,
 			"icon_subbed_year":416,
+
 			"icon_new":417,
-			"icon_subbed_month":418,
 			"icon_admin":419,
 			"icon_mod":420
 		},
@@ -1111,6 +1113,7 @@
 			"stats_minigame_ranking":"^T5Horse Isle Mini-Game Rankings:^D20|VIEW LIST^R1",
 			"stats_awards":"^T5Your Horse Isle Awards:^D24|VIEW AWARDS^R1",
 			"stats_misc":"^T5Your Horse Isle Misc Tracked Stats:^D53|VIEW STATS^R1",
+			
 			"competition_gear":{
 				"head_format":"^R1^I%ICON%^T7%ITEM% on %PRONOUN% head.",
 				"body_format":"^R1^I%ICON%^T7%ITEM% on %PRONOUN% body.",
