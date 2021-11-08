@@ -594,6 +594,7 @@
 			"too_tired":"Your poor horse is too tired to compete!",
 			"needs_vet":"Your poor horse needs a vet!",
 			
+			"arena_join_fail_full":"This Arena event is already full. Please try entering again after this competition ends.",
 			
 			"event_name":"<B>EVENT: %EVENTNAME%</B>",
 			"currently_taking_entries":"<BR>Currently taking entries for the competition.<BR>For the next competition at: %HOUR%:%MINUTE%%AMORPM% (%TIMEUNTIL% min)<BR>",
