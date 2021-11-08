@@ -991,7 +991,7 @@
 		"awards_page":{
 			"awards_header":"^ATYour Awards Earned^H",
 			"no_awards":"<BR>You have not earned any awards yet. You can view a list of earnable awards in a Horse Isle Library.",
-			"awards_others_head":"^LAwards Earned by %USERNAME%:^R1",
+			"awards_others_header":"^LAwards Earned by %USERNAME%:^R1",
 			"award_format":"^I%ICON%^T8 %NAME% ($%BONUS% bonus)^R1"
 		},
 		"highscores":{
