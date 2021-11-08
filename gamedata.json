@@ -116,7 +116,7 @@
 			"event_start":"<B>CHAT RIDDLE:</B> %RIDDLETEXT% <I>(answer first via any chat method)</I>",
 			"event_end":"<B>TIME IS UP:</B> No one answered the Chat Riddle in time.",
 			"event_won_others":"<B>RIDDLE SOLVED!</B> By player %PLAYERNAME%!",
-			"event_won_you":"<B>YOU SOLVED THE RIDDLE!</B> You earned: $%PRIZE%!"
+			"event_won_you":"<B>YOU SOLVED THE RIDDLE!</B> You earned: $%PRIZE%!",
 			"event_solved_already":"You have already solved this real time riddle.",
 		},
 		"tack_shop_giveaway":{
