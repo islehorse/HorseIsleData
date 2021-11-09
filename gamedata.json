@@ -242,8 +242,8 @@
 		},
 		"prison_isle":{
 			"x":45,
-			"y":33,
-			"message":"You have been sent to prison by a Moderator.",
+			"y":35,
+			"message":"You have been sent to Prison isle by a Moderator. You must have been bad.",
 			"command_msg":"<B>%USERNAME% Sent to prison.</B>"
 		},
 		"rules_isle":{
@@ -854,7 +854,7 @@
 			},
 			"horse_inventory":{
 				"your_horse_format":"Your horse: <B>%NAME%:</B><BR>",
-				"horse_others_format":"<B>%NAME%:</B><BR>",
+				"horse_others_format":"%USERNAME%'s horse: <B>%NAME%:</B><BR>",
 				"description_format":" <I>%DESCRIPTION%</I>",
 				"hands_high":"<BR>^H It is a %COLOR% %BREED% %SEX% standing %HANDS% hands high.<BR>",
 				"experience":" It has earned %EXP% experience points.<BR>",
@@ -1055,7 +1055,6 @@
 			
 			"player_format":"%ICONFORMAT%^T3%USERNAME% (on %TIME% min%IDLE%)^B1L%PLAYERID%^B1M%MAPXY%%MUTEORHEAR%%PMBUTTON%^R1",
 			
-			"pm_button":"^B1P%USERNAME%",
 			"mute_button":"^B1I%PLAYERID%",
 			"hear_button":"^B1H%PLAYERID%",
 			"icon_info":"^L [Star = Subscriber]   [A = Admin]   [M = Moderator]^R1",
@@ -551939,7 +551938,7 @@
   }
  ],
  "arena":{
-	"arena_exp":[1,2,4,8,12,18],
+	"arena_exp":[1, 2, 4, 8, 12, 18],
 	"arena_list":[
 		{"arena_id":1,"arena_type":"JUMPING","entry_cost":1000,"race_every":60,"slots":6,"timeout":2},
 		{"arena_id":2,"arena_type":"RACING","entry_cost":1000,"race_every":60,"slots":6,"timeout":2},
