@@ -14,7 +14,7 @@ def get_between(txt, a1, a2):
 
 
 for forum in forums:
-    tcontents[forum] = requests.get('http://master.horseisle.com/web/forums.php?FORUM='+forum, headers={"Cookie":"PHPSESSID=ve8og4p8lk3f163bmu0d90j665"}).content
+    tcontents[forum] = requests.get('http://master.horseisle.com/web/forums.php?FORUM='+forum, headers={"Cookie":"PHPSESSID=6qdgmssgrctrjuq6g11r0gj797"}).content
 """
 for file in files:
     if file.endswith('.html'):

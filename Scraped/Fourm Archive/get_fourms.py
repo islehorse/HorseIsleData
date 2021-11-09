@@ -1,7 +1,7 @@
 1
 import requests, threading
 s = requests.Session()
-s.headers = {"Cookie":"PHPSESSID=l028vch3bhb9ii1vkthoo777d5"}
+s.headers = {"Cookie":"PHPSESSID=6qdgmssgrctrjuq6g11r0gj797"}
 
 
 class t(threading.Thread):
