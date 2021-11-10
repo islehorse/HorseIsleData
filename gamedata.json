@@ -838,6 +838,7 @@
 				"auto_sell_meta":"<B>Auto-Selling a horse:</B><BR>By setting this value,  any other player can buy this horse from you at any time.  If you have a Ranch,  they can even buy the horse when you are offline! (Put the cost to 0 to stop it from being for auto-sale.)^PMAuto-Sell horse for:|%AUTOSELL%^PS10|SET COST",
 				"auto_sell_confirmed":"Setting up Auto-Sell for horse at $%MONEY%",
 				"auto_sell_remove":"Removing auto-sell off horse.",
+				"auto_sell_to_high":"Auto-Sell Value too high.",
 				"is_auto_sell":"[$] "
 			},
 			"feed_horse":{
