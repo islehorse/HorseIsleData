@@ -1223,10 +1223,10 @@
 		},
 		"nearby":{
 			"players_nearby":"<B>Players Nearby:</B><BR>",
-			"east":"<B>East:</B>",
-			"west":"<B>West:</B>",
-			"south":"<B>South:</B>",
-			"north":"<B>North:</B>"
+			"east":"<B>East:</B> ",
+			"west":"<B>West:</B> ",
+			"south":"<B>South:</B> ",
+			"north":"<B>North:</B> "
 		},
 		"seperator":"<BR>",
 	},
