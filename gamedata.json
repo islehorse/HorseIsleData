@@ -542,6 +542,7 @@
 			"wrapped_object":"Wrapped object!",
 			"wrap_fail_inv_full":"You cannot carry any more presents.",
 			"open_fail_inv_full":"Your inventory is full, cannot open anything.",
+			"open_fail_empty":"Opened object! But there was nothing inside! How sad.",
 			"open_format":"Opened object! There was a %ITEM% inside!"
 		},
 		"pawneer":{
