@@ -1,0 +1,416 @@
+{
+ "social_types":[
+  {
+	"type": "FRIENDLY",
+	"socials": [
+	  {
+		"social_id": 1,
+		"button_name": "SMILE",
+		"for_sender": "You smile at %TARGETNAME%.",
+		"for_target": "%SENDERNAME% smiles at you.",
+		"for_everyone": "%SENDERNAME% smiled at %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 2,
+		"button_name": "WAVE",
+		"for_sender": "You wave enthusiastically at %TARGETNAME%!",
+		"for_target": "%SENDERNAME% is waving at you very enthusiastically!",
+		"for_everyone": "%SENDERNAME% waved at %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 3,
+		"button_name": "WINK",
+		"for_sender": "You sneak a wink off to %TARGETNAME%.",
+		"for_target": "%SENDERNAME% winks at you secretively.",
+		"for_everyone": null,
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 4,
+		"button_name": "LAUGH",
+		"for_sender": "You laugh at %TARGETNAME%'s humor.",
+		"for_target": "%SENDERNAME% laughs at your humor.",
+		"for_everyone": "%SENDERNAME% laughs heartily at %TARGETNAME%'s humor.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 11,
+		"button_name": "HIGH5",
+		"for_sender": "You give a big high-five to %TARGETNAME%!",
+		"for_target": "%SENDERNAME% comes at you with a high-five! You manage to meet the clap in time!",
+		"for_everyone": "%TARGETNAME% is being high-fived by %SENDERNAME% for some reason.",
+		"sound_effect": "HI5"
+	  },
+	  {
+		"social_id": 12,
+		"button_name": "CLAP",
+		"for_sender": "You clap at what %TARGETNAME% has done!",
+		"for_target": "%SENDERNAME% is clapping at what you have accomplished!",
+		"for_everyone": "%SENDERNAME% is clapping for %TARGETNAME%.",
+		"sound_effect": "CLAP"
+	  },
+	  {
+		"social_id": 13,
+		"button_name": "HUG",
+		"for_sender": "You give %TARGETNAME% a welcome hug.",
+		"for_target": "%SENDERNAME% gives you a hug.",
+		"for_everyone": "%SENDERNAME% gave %TARGETNAME% a hug.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 14,
+		"button_name": "BEARHUG",
+		"for_sender": "You nearly crush %TARGETNAME% with your massive bearhug!",
+		"for_target": "%SENDERNAME% nearly crushes you with a massive bearhug!",
+		"for_everyone": "Wow!  %TARGETNAME% was almost crushed by %SENDERNAME%'s bearhug!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 15,
+		"button_name": "DANCE",
+		"for_sender": "You do a little dance with %TARGETNAME%!",
+		"for_target": "%SENDERNAME% and you do a little dance! ",
+		"for_everyone": "%SENDERNAME% and %TARGETNAME%  do a little dance around the place..",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 17,
+		"button_name": "NOD",
+		"for_sender": "You nod at %TARGETNAME%.",
+		"for_target": "%SENDERNAME% nods at you.",
+		"for_everyone": "%SENDERNAME% nods at %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 18,
+		"button_name": "TICKLE",
+		"for_sender": "You tickle %TARGETNAME%'s sides.",
+		"for_target": "%SENDERNAME% tickles your sides until you fall over laughing.",
+		"for_everyone": "%SENDERNAME% is tickling %TARGETNAME%'s sides.",
+		"sound_effect": "TICL"
+	  },
+	  {
+		"social_id": 21,
+		"button_name": "THUMBS UP",
+		"for_sender": "You give %TARGETNAME% an enthusiastic thumbs up.",
+		"for_target": "%SENDERNAME% gives you an enthusiastic thumbs up.",
+		"for_everyone": "%SENDERNAME% is giving %TARGETNAME% a thumbs up for some reason.",
+		"sound_effect": "THUP"
+	  },
+	  {
+		"social_id": 23,
+		"button_name": "SHOULDER PAT",
+		"for_sender": "You pat %TARGETNAME% comfortingly on the shoulder.",
+		"for_target": "%SENDERNAME% comfortingly pats you on the shoulder.",
+		"for_everyone": "%SENDERNAME% pats %TARGETNAME% on the shoulder.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 24,
+		"button_name": "CIRCLE",
+		"for_sender": "You run circles around %TARGETNAME% making them dizzy.",
+		"for_target": "%SENDERNAME% excitedly runs circles around you causing your head to spin.",
+		"for_everyone": "%SENDERNAME% runs circles around %TARGETNAME% making %TARGETNAME% dizzy.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 38,
+		"button_name": "GLOMP",
+		"for_sender": "You surprise %TARGETNAME% by tackling and hugging them very tightly! %TARGETNAME% squeaks in surprise!",
+		"for_target": "All of a sudden %SENDERNAME% tackles you and starts to hug you very tightly! You squeak in surprise!",
+		"for_everyone": "All of a sudden %SENDERNAME% tackles %TARGETNAME% and starts to hug them very tightly! %TARGETNAME% squeaks in surprise!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 40,
+		"button_name": "BEAM",
+		"for_sender": "You produce one of the biggest, happiest faces possible towards %TARGETNAME%!",
+		"for_target": "%SENDERNAME% produces one of the biggest, happiest faces you've ever seen towards you!!! Wow, you must have made them happy.",
+		"for_everyone": "%SENDERNAME% produces one of the biggest, happiest faces you've ever seen towards %TARGETNAME%!!!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 45,
+		"button_name": "HANDSHAKE",
+		"for_sender": "You shake hands with %TARGETNAME% enthusiastically.",
+		"for_target": "%SENDERNAME% shakes hands with you enthusiastically.",
+		"for_everyone": "%SENDERNAME% is shaking hands with %TARGETNAME% quite enthusiastically.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 46,
+		"button_name": "ROFL",
+		"for_sender": "%TARGETNAME% is so funny you end up rolling on the floor from laughing so hard!!",
+		"for_target": "You were so funny that %SENDERNAME% is rolling on the floor from laughing so hard!!",
+		"for_everyone": "%SENDERNAME% is laughing so hard at %TARGETNAME% that %SENDERNAME% is rolling on the floor!!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 48,
+		"button_name": "SPIN",
+		"for_sender": "You playfully spin %TARGETNAME% in circles making them dizzy.",
+		"for_target": "%SENDERNAME% playfully spins you in circles.  You are getting quite dizzy.",
+		"for_everyone": "%SENDERNAME% is spinning %TARGETNAME% in circles.  You are getting dizzy just watching!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 51,
+		"button_name": "SING",
+		"for_sender": "You sing a silly song to %TARGETNAME% hoping they laugh.",
+		"for_target": "%SENDERNAME% sings you a silly song.  You burst out laughing.  ",
+		"for_everyone": "%SENDERNAME% is singing a silly song to %TARGETNAME%.  You can't help but laugh yourself.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 52,
+		"button_name": "FLAIL",
+		"for_sender": "You flail wildly at %TARGETNAME%!",
+		"for_target": "You must have done something exciting, because %SENDERNAME% is flailing at you wildly!",
+		"for_everyone": "%TARGETNAME% must have done something exciting, because %SENDERNAME% is flailing at %TARGETNAME% wildly!",
+		"sound_effect": null
+	  }
+	]
+  },
+  {
+	"type": "UNFRIENDLY",
+	"socials": [
+	  {
+		"social_id": 5,
+		"button_name": "FROWN",
+		"for_sender": "You frown upon %TARGETNAME%'s behavior.",
+		"for_target": "Upon your behavior, %SENDERNAME% frowns deeply.",
+		"for_everyone": "%SENDERNAME% frowns upon %TARGETNAME%'s behavior.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 6,
+		"button_name": "POKE",
+		"for_sender": "You poke %TARGETNAME% right in the ribs!",
+		"for_target": "%SENDERNAME% has poked you right in the ribs!",
+		"for_everyone": "%SENDERNAME% poked %TARGETNAME% right in the ribs!",
+		"sound_effect": "POKE"
+	  },
+	  {
+		"social_id": 7,
+		"button_name": "IGNORE",
+		"for_sender": "You stick your nose in the air and ignore %TARGETNAME%s childish behavior!",
+		"for_target": "%SENDERNAME% sticks their nose in the air ignoring your childish behavior!",
+		"for_everyone": "%SENDERNAME% is ignoring %TARGETNAME%'s childish behavior.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 8,
+		"button_name": "GROWL",
+		"for_sender": "In a deep growling voice, you attempt to frighten %TARGETNAME%!",
+		"for_target": "You are frightened by a deep growl! It's directed at you from %SENDERNAME%!",
+		"for_everyone": "A scary growl emanating from %SENDERNAME% is directed at %TARGETNAME%.  You try to stay away.",
+		"sound_effect": "GRWL"
+	  },
+	  {
+		"social_id": 9,
+		"button_name": "POINT",
+		"for_sender": "You point jokingly at %TARGETNAME%!",
+		"for_target": "%SENDERNAME% points jokingly at you!",
+		"for_everyone": "%SENDERNAME% points jokingly at %TARGETNAME%!",
+		"sound_effect": "PNT"
+	  },
+	  {
+		"social_id": 10,
+		"button_name": "BURP",
+		"for_sender": "BuuuuuuuurrrrP!",
+		"for_target": "Buuurrrp! You can't believe %SENDERNAME% just did that towards you!",
+		"for_everyone": "BuuuurrrP! %SENDERNAME% just made a gross sound towards %TARGETNAME%!",
+		"sound_effect": "BURP"
+	  },
+	  {
+		"social_id": 16,
+		"button_name": "CRY",
+		"for_sender": "%TARGETNAME% has made you cry like a little baby!",
+		"for_target": "%SENDERNAME% is crying like a little baby because of you now!",
+		"for_everyone": "%TARGETNAME% has made %SENDERNAME% cry like a little baby!  How sad.",
+		"sound_effect": "CRY"
+	  },
+	  {
+		"social_id": 19,
+		"button_name": "YELL",
+		"for_sender": "You start yelling angrily at %TARGETNAME%.",
+		"for_target": "%SENDERNAME% is yelling at you!  You must have done something wrong.",
+		"for_everyone": "%SENDERNAME% is yelling at %TARGETNAME%!",
+		"sound_effect": "YELL"
+	  },
+	  {
+		"social_id": 20,
+		"button_name": "NUDGE",
+		"for_sender": "You nudge %TARGETNAME% carefully out of your way.",
+		"for_target": "%SENDERNAME% gives you a careful nudge out of the way.",
+		"for_everyone": "%TARGETNAME% was nudged out of %SENDERNAME%'s way.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 22,
+		"button_name": "YAWN",
+		"for_sender": "YYYYAAAAWWWWNNNNN...  Boy %TARGETNAME% is boring...",
+		"for_target": "YYYAAAWWWNN...  you are boring %SENDERNAME%!",
+		"for_everyone": "%SENDERNAME% just yawned at %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 37,
+		"button_name": "TEASE",
+		"for_sender": "You laughingly tease %TARGETNAME% about their silly shoes.",
+		"for_target": "%SENDERNAME% laughingly teases you about your silly shoes.",
+		"for_everyone": "%SENDERNAME% is laughingly teasing %TARGETNAME% about their silly shoes.  You don't see anything silly about them.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 39,
+		"button_name": "QUACK",
+		"for_sender": "You make weird animal noises at %TARGETNAME% trying to sound like a ferocious...  duck.",
+		"for_target": "%SENDERNAME% makes weird animal noises at you.  Was that a duck?",
+		"for_everyone": "%SENDERNAME% makes weird animal noises at %TARGETNAME%. Was that a duck?",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 41,
+		"button_name": "SNORE",
+		"for_sender": "ZZzzzzz....   %TARGETNAME% has bored you to the point of SNORING!!  Wow..  now,  that is boring.. ",
+		"for_target": "ZZzzzzz....   You have bored %SENDERNAME% to the point of SNORING!!  Ooops! ",
+		"for_everyone": "ZZzzzzz....   %TARGETNAME% has bored %SENDERNAME% to the point of SNORING!!  Wow..  now,  that is boring.. ",
+		"sound_effect": "SNOR"
+	  },
+	  {
+		"social_id": 42,
+		"button_name": "SCREAM",
+		"for_sender": "AAAAAAAAAAAAAHHH!!!!   You scream loudly at %TARGETNAME%.. .   maybe overreacting?",
+		"for_target": "AAAAAAAAAAAAAHHH!!!!  %SENDERNAME% screams loudly at you.. .   overreacting a bit!?",
+		"for_everyone": "AAAAAAAAAAAAAHHH!!!!   %SENDERNAME% screams loudly at %TARGETNAME%.. .   overreacting a bit?",
+		"sound_effect": "SCRM"
+	  },
+	  {
+		"social_id": 43,
+		"button_name": "HIDE",
+		"for_sender": "You quickly hide in the shadows,  hoping %TARGETNAME% does not see you. . .",
+		"for_target": "%SENDERNAME% quickly hides in the shadows,  hoping you do not see them. . .",
+		"for_everyone": "%SENDERNAME% quickly hides in the shadows,  hoping %TARGETNAME% does not see them. . .",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 44,
+		"button_name": "TRIP",
+		"for_sender": "Poor %TARGETNAME% tripped over your giant hobbitty feet!!",
+		"for_target": "You tripped over %SENDERNAME%'s giant hobbitty feet!!  Poor you!",
+		"for_everyone": "Poor %TARGETNAME% tripped over %SENDERNAME%'s giant hobbitty feet!!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 49,
+		"button_name": "ROAR",
+		"for_sender": "From the bottom of your being you release the loudest roar possible!. .  Only. . on its way out,  your voice squeaks a little,  and that takes away from the intimidation. . . ",
+		"for_target": "From the bottom of %SENDERNAME%'s being they release the loudest roar possible towards you!. .  Only. . on its way out,  their voice squeaks a little,  and that takes away from the intimidation. . . ",
+		"for_everyone": "From the bottom of %SENDERNAME%'s being they release the loudest roar possible towards %TARGETNAME%!. .  Only. . on its way out,  their voice squeaks a little,  and that takes away from the intimidation. . . ",
+		"sound_effect": "ROAR"
+	  },
+	  {
+		"social_id": 50,
+		"button_name": "BOO",
+		"for_sender": "BOOOOO!   You frighten %TARGETNAME% really bad!  They did not see that coming!",
+		"for_target": "BOOOOOOOO!  %SENDERNAME% frightens you really bad!  You did not see that coming!",
+		"for_everyone": "BOOOOO!   %SENDERNAME% frightens %TARGETNAME% really bad!  They did not see that coming!",
+		"sound_effect": "BOO"
+	  }
+	]
+  },
+  {
+	"type": "HORSE",
+	"socials": [
+	  {
+		"social_id": 26,
+		"button_name": "WINK",
+		"for_sender": "Your horse winks at %TARGETNAME%.",
+		"for_target": "%SENDERNAME%'s horse winks at you!",
+		"for_everyone": "%SENDERNAME%'s horse winks at %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 27,
+		"button_name": "NEIGH",
+		"for_sender": "Your horse neighs loudly at %TARGETNAME%.",
+		"for_target": "%SENDERNAME%'s horse neighs loudly at you.",
+		"for_everyone": "%SENDERNAME%'s horse neighs loudly at %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 29,
+		"button_name": "WHINNY",
+		"for_sender": "Your horse whinnies softly and happily towards %TARGETNAME%.",
+		"for_target": "%SENDERNAME%'s horse whinnies softly and happily towards you.",
+		"for_everyone": "%SENDERNAME%'s  horse whinnies softly and happily towards %TARGETNAME%.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 30,
+		"button_name": "SNORT",
+		"for_sender": "Your horse rudely snorts towards %TARGETNAME%!",
+		"for_target": "%SENDERNAME%'s horse rudely snorts towards you!",
+		"for_everyone": "%SENDERNAME%'s horse rudely snorts towards %TARGETNAME%!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 31,
+		"button_name": "BUCK",
+		"for_sender": "Your horse bucks you lightly.  Must have been excited to see %TARGETNAME%.",
+		"for_target": "%SENDERNAME%'s horse bucks lightly.  Must have been excited to see you.",
+		"for_everyone": "%SENDERNAME%'s horse bucks lightly.  Must have been excited to see %TARGETNAME%.",
+		"sound_effect": null
+	  }
+	]
+  },
+  {
+	"type": "GROUP",
+	"socials": [
+	  {
+		"social_id": 32,
+		"button_name": "HUG",
+		"for_sender": "You initiated a group hug!!  It has risen the spirits of everyone involved!",
+		"for_target": "%SENDERNAME% initiated a group hug!!  It has risen the spirits of everyone involved!",
+		"for_everyone": "%SENDERNAME% initiated a group hug!!  It has risen the spirits of everyone involved!",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 33,
+		"button_name": "DOG PILE",
+		"for_sender": "You yell DOGPILE!   Suddenly everyone here has leapt on top of you,  and you find yourself smothered at the bottom.",
+		"for_target": "%SENDERNAME% yells DOGPILE!   Suddenly everyone here including you has leapt on top of %SENDERNAME%,  smothering them at the bottom.",
+		"for_everyone": "%SENDERNAME% yells DOGPILE!   Suddenly everyone here including you has leapt on top of %SENDERNAME%,  smothering them at the bottom.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 34,
+		"button_name": "DANCE",
+		"for_sender": "You call everyone together for a ballet!  Everyone here joins in..  You are the moon,  another is the princess, and you're not sure what the others are supposed to be. . . ",
+		"for_target": "%SENDERNAME% calls everyone together for a ballet!  Everyone here joins in..  %SENDERNAME% is the moon,  another is the princess, and you're not sure what the others are supposed to be. . . ",
+		"for_everyone": "%SENDERNAME% calls everyone together for a ballet!  Everyone here joins in..  %SENDERNAME% is the moon,  another is the princess, and you're not sure what the others are supposed to be. . . ",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 35,
+		"button_name": "HUDDLE",
+		"for_sender": "You call everyone for a huddle.  You discuss your secret plans here.",
+		"for_target": null,
+		"for_everyone": "%SENDERNAME% has called a huddle.  You all discuss your secret plans here.",
+		"sound_effect": null
+	  },
+	  {
+		"social_id": 36,
+		"button_name": "HOWL",
+		"for_sender": "You howl at the moon loudly.  Soon everyone here has joined in. The noise is intensely terrifying!",
+		"for_target": "%SENDERNAME% howls at the moon loudly.  Soon you and everyone else here has joined in. The noise is intensely terrifying!",
+		"for_everyone": "%SENDERNAME% howls at the moon loudly.  Soon you and everyone else here has joined in. The noise is intensely terrifying!",
+		"sound_effect": "HOWL"
+	  }
+	]
+  }
+ ]
+}

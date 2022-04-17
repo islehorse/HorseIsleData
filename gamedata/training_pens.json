@@ -1,0 +1,14 @@
+{
+ "training_pens":[
+		{"trainer_id":1,"improves_stat":"speed","improves_amount":10,"thirst_cost":50,"mood_cost":10,"hunger_cost":25,"money_cost":1000,"experience":5},
+		{"trainer_id":2,"improves_stat":"strength","improves_amount":10,"thirst_cost":35,"mood_cost":25,"hunger_cost":35,"money_cost":1000,"experience":5},
+		{"trainer_id":3,"improves_stat":"conformation","improves_amount":10,"thirst_cost":5,"mood_cost":80,"hunger_cost":5,"money_cost":1000,"experience":10},
+		{"trainer_id":4,"improves_stat":"agility","improves_amount":10,"thirst_cost":50,"mood_cost":20,"hunger_cost":50,"money_cost":1000,"experience":10},
+		{"trainer_id":5,"improves_stat":"endurance","improves_amount":10,"thirst_cost":80,"mood_cost":20,"hunger_cost":80,"money_cost":1000,"experience":5},
+		{"trainer_id":6,"improves_stat":"speed","improves_amount":10,"thirst_cost":50,"mood_cost":10,"hunger_cost":25,"money_cost":750,"experience":5},
+		{"trainer_id":7,"improves_stat":"strength","improves_amount":10,"thirst_cost":35,"mood_cost":25,"hunger_cost":35,"money_cost":750,"experience":5},
+		{"trainer_id":8,"improves_stat":"conformation","improves_amount":10,"thirst_cost":5,"mood_cost":80,"hunger_cost":5,"money_cost":750,"experience":10},
+		{"trainer_id":9,"improves_stat":"agility","improves_amount":10,"thirst_cost":50,"mood_cost":20,"hunger_cost":50,"money_cost":750,"experience":10},
+		{"trainer_id":10,"improves_stat":"endurance","improves_amount":10,"thirst_cost":80,"mood_cost":20,"hunger_cost":80,"money_cost":750,"experience":5}
+	]
+}

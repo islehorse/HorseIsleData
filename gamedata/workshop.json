@@ -1,0 +1,1450 @@
+{
+ "workshop":[
+	  {
+		"pos_x": 314,
+		"pos_y": 194,
+		"craftable_items": [
+		  {
+			"id": 1,
+			"required_items": [
+			  {
+				"req_item": 39,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 32,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 370,
+			"money_cost": 200
+		  },
+		  {
+			"id": 13,
+			"required_items": [
+			  {
+				"req_item": 43,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 32,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 397,
+			"money_cost": 200
+		  },
+		  {
+			"id": 14,
+			"required_items": [
+			  {
+				"req_item": 6,
+				"req_quantity": 8
+			  },
+			  {
+				"req_item": 203,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 398,
+			"money_cost": 200
+		  },
+		  {
+			"id": 15,
+			"required_items": [
+			  {
+				"req_item": 186,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 202,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 399,
+			"money_cost": 200
+		  },
+		  {
+			"id": 16,
+			"required_items": [
+			  {
+				"req_item": 68,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 205,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 400,
+			"money_cost": 200
+		  }
+		]
+	  },
+	  {
+		"pos_x": 372,
+		"pos_y": 183,
+		"craftable_items": [
+		  {
+			"id": 2,
+			"required_items": [
+			  {
+				"req_item": 372,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 384,
+			"money_cost": 100
+		  },
+		  {
+			"id": 3,
+			"required_items": [
+			  {
+				"req_item": 384,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 372,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 78,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 385,
+			"money_cost": 200
+		  },
+		  {
+			"id": 4,
+			"required_items": [
+			  {
+				"req_item": 384,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 372,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 77,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 386,
+			"money_cost": 200
+		  },
+		  {
+			"id": 5,
+			"required_items": [
+			  {
+				"req_item": 384,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 372,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 75,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 387,
+			"money_cost": 200
+		  },
+		  {
+			"id": 6,
+			"required_items": [
+			  {
+				"req_item": 384,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 372,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 347,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 388,
+			"money_cost": 200
+		  },
+		  {
+			"id": 7,
+			"required_items": [
+			  {
+				"req_item": 384,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 372,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 3,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 389,
+			"money_cost": 300
+		  },
+		  {
+			"id": 8,
+			"required_items": [
+			  {
+				"req_item": 384,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 372,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 74,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 390,
+			"money_cost": 500
+		  },
+		  {
+			"id": 9,
+			"required_items": [
+			  {
+				"req_item": 392,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 393,
+			"money_cost": 100
+		  },
+		  {
+			"id": 10,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 75,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 394,
+			"money_cost": 200
+		  },
+		  {
+			"id": 11,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 347,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 395,
+			"money_cost": 200
+		  },
+		  {
+			"id": 89,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 760,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1364,
+			"money_cost": 1000
+		  },
+		  {
+			"id": 90,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 761,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1365,
+			"money_cost": 1000
+		  },
+		  {
+			"id": 91,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 762,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1366,
+			"money_cost": 1000
+		  },
+		  {
+			"id": 92,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 763,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1367,
+			"money_cost": 1000
+		  },
+		  {
+			"id": 93,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 764,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1368,
+			"money_cost": 1000
+		  },
+		  {
+			"id": 94,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 765,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1369,
+			"money_cost": 1000
+		  },
+		  {
+			"id": 95,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 766,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1370,
+			"money_cost": 1000
+		  }
+		]
+	  },
+	  {
+		"pos_x": 425,
+		"pos_y": 145,
+		"craftable_items": [
+		  {
+			"id": 12,
+			"required_items": [
+			  {
+				"req_item": 371,
+				"req_quantity": 5
+			  }
+			],
+			"give_item": 440,
+			"money_cost": 100
+		  },
+		  {
+			"id": 17,
+			"required_items": [
+			  {
+				"req_item": 371,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 441,
+			"money_cost": 150
+		  },
+		  {
+			"id": 18,
+			"required_items": [
+			  {
+				"req_item": 371,
+				"req_quantity": 20
+			  }
+			],
+			"give_item": 442,
+			"money_cost": 200
+		  },
+		  {
+			"id": 19,
+			"required_items": [
+			  {
+				"req_item": 371,
+				"req_quantity": 20
+			  }
+			],
+			"give_item": 443,
+			"money_cost": 200
+		  },
+		  {
+			"id": 56,
+			"required_items": [
+			  {
+				"req_item": 371,
+				"req_quantity": 25
+			  }
+			],
+			"give_item": 567,
+			"money_cost": 200
+		  }
+		]
+	  },
+	  {
+		"pos_x": 594,
+		"pos_y": 306,
+		"craftable_items": [
+		  {
+			"id": 20,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 446,
+			"money_cost": 100
+		  },
+		  {
+			"id": 21,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 52,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 3,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 448,
+			"money_cost": 300
+		  },
+		  {
+			"id": 22,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 60,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 3,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 449,
+			"money_cost": 300
+		  },
+		  {
+			"id": 23,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 40,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 3,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 450,
+			"money_cost": 300
+		  },
+		  {
+			"id": 24,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 53,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 3,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 451,
+			"money_cost": 300
+		  },
+		  {
+			"id": 25,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 52,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 204,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 453,
+			"money_cost": 300
+		  },
+		  {
+			"id": 26,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 60,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 204,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 454,
+			"money_cost": 300
+		  },
+		  {
+			"id": 27,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 40,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 204,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 456,
+			"money_cost": 300
+		  },
+		  {
+			"id": 28,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 53,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 204,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 457,
+			"money_cost": 300
+		  },
+		  {
+			"id": 29,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 52,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 39,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 458,
+			"money_cost": 300
+		  },
+		  {
+			"id": 30,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 60,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 39,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 459,
+			"money_cost": 300
+		  },
+		  {
+			"id": 31,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 40,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 39,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 460,
+			"money_cost": 300
+		  },
+		  {
+			"id": 32,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 53,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 39,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 461,
+			"money_cost": 300
+		  }
+		]
+	  },
+	  {
+		"pos_x": 634,
+		"pos_y": 139,
+		"craftable_items": [
+		  {
+			"id": 33,
+			"required_items": [
+			  {
+				"req_item": 439,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 440,
+				"req_quantity": 2
+			  },
+			  {
+				"req_item": 443,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 462,
+			"money_cost": 200
+		  },
+		  {
+			"id": 34,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 52,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 469,
+			"money_cost": 200
+		  },
+		  {
+			"id": 35,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 60,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 470,
+			"money_cost": 200
+		  },
+		  {
+			"id": 36,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 40,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 471,
+			"money_cost": 200
+		  },
+		  {
+			"id": 37,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 53,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 472,
+			"money_cost": 200
+		  },
+		  {
+			"id": 38,
+			"required_items": [
+			  {
+				"req_item": 441,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 439,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 473,
+			"money_cost": 100
+		  },
+		  {
+			"id": 39,
+			"required_items": [
+			  {
+				"req_item": 466,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 438,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 467,
+			"money_cost": 200
+		  },
+		  {
+			"id": 40,
+			"required_items": [
+			  {
+				"req_item": 467,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 473,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 442,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 468,
+			"money_cost": 200
+		  },
+		  {
+			"id": 61,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 51,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 788,
+			"money_cost": 200
+		  },
+		  {
+			"id": 64,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 39,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 791,
+			"money_cost": 200
+		  },
+		  {
+			"id": 65,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 43,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 856,
+			"money_cost": 200
+		  },
+		  {
+			"id": 66,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 371,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 857,
+			"money_cost": 200
+		  },
+		  {
+			"id": 67,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 71,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 858,
+			"money_cost": 200
+		  },
+		  {
+			"id": 68,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 54,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 859,
+			"money_cost": 200
+		  },
+		  {
+			"id": 77,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 42,
+				"req_quantity": 5
+			  }
+			],
+			"give_item": 1089,
+			"money_cost": 200
+		  },
+		  {
+			"id": 78,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 80,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 1090,
+			"money_cost": 200
+		  },
+		  {
+			"id": 79,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 10
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1093,
+			"money_cost": 200
+		  }
+		]
+	  },
+	  {
+		"pos_x": 228,
+		"pos_y": 171,
+		"craftable_items": [
+		  {
+			"id": 52,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 52,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 571,
+			"money_cost": 200
+		  },
+		  {
+			"id": 53,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 60,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 572,
+			"money_cost": 200
+		  },
+		  {
+			"id": 54,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 40,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 573,
+			"money_cost": 200
+		  },
+		  {
+			"id": 55,
+			"required_items": [
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 53,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 574,
+			"money_cost": 200
+		  },
+		  {
+			"id": 57,
+			"required_items": [
+			  {
+				"req_item": 441,
+				"req_quantity": 2
+			  },
+			  {
+				"req_item": 439,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 578,
+			"money_cost": 100
+		  },
+		  {
+			"id": 58,
+			"required_items": [
+			  {
+				"req_item": 466,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 438,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 577,
+			"money_cost": 200
+		  },
+		  {
+			"id": 59,
+			"required_items": [
+			  {
+				"req_item": 577,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 578,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 442,
+				"req_quantity": 2
+			  }
+			],
+			"give_item": 570,
+			"money_cost": 200
+		  },
+		  {
+			"id": 60,
+			"required_items": [
+			  {
+				"req_item": 439,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 440,
+				"req_quantity": 2
+			  },
+			  {
+				"req_item": 567,
+				"req_quantity": 1
+			  }
+			],
+			"give_item": 569,
+			"money_cost": 200
+		  },
+		  {
+			"id": 62,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 51,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 789,
+			"money_cost": 200
+		  },
+		  {
+			"id": 63,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 39,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 790,
+			"money_cost": 200
+		  },
+		  {
+			"id": 69,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 43,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 860,
+			"money_cost": 200
+		  },
+		  {
+			"id": 70,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 371,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 861,
+			"money_cost": 200
+		  },
+		  {
+			"id": 71,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 71,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 862,
+			"money_cost": 200
+		  },
+		  {
+			"id": 72,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 54,
+				"req_quantity": 15
+			  }
+			],
+			"give_item": 863,
+			"money_cost": 200
+		  },
+		  {
+			"id": 80,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 3
+			  }
+			],
+			"give_item": 1094,
+			"money_cost": 200
+		  },
+		  {
+			"id": 81,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 80,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 1092,
+			"money_cost": 200
+		  },
+		  {
+			"id": 82,
+			"required_items": [
+			  {
+				"req_item": 446,
+				"req_quantity": 4
+			  },
+			  {
+				"req_item": 444,
+				"req_quantity": 15
+			  },
+			  {
+				"req_item": 42,
+				"req_quantity": 5
+			  }
+			],
+			"give_item": 1091,
+			"money_cost": 200
+		  }
+		]
+	  },
+	  {
+		"pos_x": 455,
+		"pos_y": 97,
+		"craftable_items": [
+		  {
+			"id": 83,
+			"required_items": [
+			  {
+				"req_item": 632,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 1234,
+			"money_cost": 100
+		  },
+		  {
+			"id": 84,
+			"required_items": [
+			  {
+				"req_item": 392,
+				"req_quantity": 10
+			  }
+			],
+			"give_item": 393,
+			"money_cost": 100
+		  },
+		  {
+			"id": 85,
+			"required_items": [
+			  {
+				"req_item": 439,
+				"req_quantity": 4
+			  }
+			],
+			"give_item": 1235,
+			"money_cost": 100
+		  },
+		  {
+			"id": 86,
+			"required_items": [
+			  {
+				"req_item": 393,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 5
+			  },
+			  {
+				"req_item": 1214,
+				"req_quantity": 4
+			  }
+			],
+			"give_item": 1240,
+			"money_cost": 200
+		  },
+		  {
+			"id": 87,
+			"required_items": [
+			  {
+				"req_item": 1234,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 632,
+				"req_quantity": 2
+			  },
+			  {
+				"req_item": 1214,
+				"req_quantity": 4
+			  }
+			],
+			"give_item": 1241,
+			"money_cost": 200
+		  },
+		  {
+			"id": 88,
+			"required_items": [
+			  {
+				"req_item": 1235,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 392,
+				"req_quantity": 1
+			  },
+			  {
+				"req_item": 1214,
+				"req_quantity": 4
+			  }
+			],
+			"give_item": 1242,
+			"money_cost": 200
+		  }
+		]
+	  }
+	]
+}
