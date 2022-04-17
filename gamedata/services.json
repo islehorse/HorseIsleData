@@ -1,0 +1,31 @@
+{
+ "services":{
+	 "barn":{
+		"price_multipliers":[
+			{"id":1,"tired_cost":0.2,"hunger_cost":0.5, "thirst_cost":0.2},
+			{"id":2,"tired_cost":0.3,"hunger_cost":0.6, "thirst_cost":0.3},
+			{"id":3,"tired_cost":0.4,"hunger_cost":0.7, "thirst_cost":0.3},
+			{"id":4,"tired_cost":0.5,"hunger_cost":0.8, "thirst_cost":0.4}
+		]
+	 },
+	 "vet":{
+		"price_multipliers":[
+			{"id":1,"cost":0.5},
+			{"id":2,"cost":0.8},
+			{"id":3,"cost":0.9}
+		]
+	 },
+	 "groomer":{
+		"price_multipliers":[
+			{"id":1,"max":800,"cost":0.5},
+			{"id":2,"max":1000,"cost":0.8},
+			{"id":3,"max":750,"cost":0.4}
+		],
+	 },
+	 "farrier":{
+		"price_multipliers":[
+			{"id":1,"steel":1000,"steel_cost":500,"iron":750, "iron_cost":100}
+		]
+	 }
+ }
+}

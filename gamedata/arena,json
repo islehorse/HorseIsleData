@@ -1,0 +1,18 @@
+{
+ "arena":{
+	"arena_exp":[1, 2, 4, 8, 12, 18],
+	"arena_list":[
+		{"arena_id":1,"arena_type":"JUMPING","entry_cost":1000,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":2,"arena_type":"RACING","entry_cost":1000,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":3,"arena_type":"CONFORMATION","entry_cost":1000,"race_every":60,"slots":5,"timeout":2},
+		{"arena_id":4,"arena_type":"DRAFT","entry_cost":1000,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":5,"arena_type":"BEGINNERJUMPING","entry_cost":500,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":6,"arena_type":"JUMPING","entry_cost":10000,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":7,"arena_type":"RACING","entry_cost":10000,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":8,"arena_type":"CONFORMATION","entry_cost":10000,"race_every":60,"slots":5,"timeout":2},
+		{"arena_id":9,"arena_type":"DRAFT","entry_cost":10000,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":10,"arena_type":"BEGINNERJUMPING","entry_cost":500,"race_every":60,"slots":6,"timeout":2},
+		{"arena_id":11,"arena_type":"BEGINNERJUMPING","entry_cost":500,"race_every":60,"slots":6,"timeout":2}
+	]
+ }
+}

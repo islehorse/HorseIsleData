@@ -1,0 +1,137 @@
+{
+ "leaser":[
+		{
+			"lease_id":1, 
+			"button_id":"57c1",
+			"info":"^HA very special creature, the Unicorn, can temporarily travel with you for 1 game day (2 hours) for $200,000.^T62hr Unicorn teamup for $200,000^D57c1|TEAM UP^R1",
+			"on_lease":"^ATNew Temporary Unicorn Teamup!^HYou can ride the unicorn without tack. Use the chat command !WARP <I>LOCATION or PLAYERNAME</I> to ask the unicorn to warp you places!<BR>When the time is up, it will be removed from your horses list",
+			"price":200000,
+			"minutes":120,
+			"horse":{
+				"breed":63,
+				"name":"Unicorn",
+				"exp":1000,
+				"color":"white",
+				"gender":"stallion",
+				"hands":66,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":null,"saddle_pad":null, "bridle":null},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		},
+		{
+			"lease_id":1, 
+			"button_id":"57c5",
+			"info":"^HA very special creature, the Unicorn, can temporarily travel with you for 2 game days (4 hours) for $1,000,000.^T64hr Unicorn teamup for $1,000,000^D57c5|TEAM UP^R1",
+			"on_lease":"^ATNew Temporary Unicorn Teamup!^HYou can ride the unicorn without tack. Use the chat command !WARP <I>LOCATION or PLAYERNAME</I> to ask the unicorn to warp you places!<BR>When the time is up, it will be removed from your horses list",
+			"price":1000000,
+			"minutes":240,
+			"horse":{
+				"breed":63,
+				"name":"Unicorn",
+				"exp":1000,
+				"color":"white",
+				"gender":"stallion",
+				"hands":66,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":null,"saddle_pad":null, "bridle":null},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		},
+		{
+			"lease_id":2, 
+			"button_id":"57c2",
+			"info":"^HA very special creature, the Pegasus, can temporarily travel with you for 1 game day (2 hours) for $200,000.^T62hr Pegasus teamup for $200,000^D57c2|TEAM UP^R1",
+			"on_lease":"^ATNew Temporary Pegasus Teamup!^HYou can ride the Pegasus without tack, it can fly over any terrain including water! Enjoy!<BR>When the time is up, it will be removed from your horses list.",
+			"price":200000,
+			"minutes":120,
+			"horse":{
+				"breed":64,
+				"name":"Pegasus",
+				"exp":1000,
+				"color":"white",
+				"gender":"stallion",
+				"hands":65,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":null,"saddle_pad":null, "bridle":null},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		},
+		{
+			"lease_id":2, 
+			"button_id":"57c6",
+			"info":"^HA very special creature, the Pegasus, can temporarily travel with you for 2 game days (4 hours) for $1,000,000.^T64hr Pegasus teamup for $1,000,000^D57c6|TEAM UP^R1",
+			"on_lease":"^ATNew Temporary Pegasus Teamup!^HYou can ride the Pegasus without tack, it can fly over any terrain including water! Enjoy!<BR>When the time is up, it will be removed from your horses list.",
+			"price":1000000,
+			"minutes":240,
+			"horse":{
+				"breed":64,
+				"name":"Pegasus",
+				"exp":1000,
+				"color":"white",
+				"gender":"stallion",
+				"hands":65,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":null,"saddle_pad":null, "bridle":null},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		},
+		{
+			"lease_id":3, 
+			"button_id":"57c3",
+			"info":"^HA tacked, trusty Fell Pony that can temporarily travel with you for 1 game day (2 hours) for $250. Leased horses have limited options. They cannot enter arena events, or minigames, but they come fully tacked for riding!^T62hr Fell Pony lease for $250^D57c3|LEASE^R1",
+			"on_lease":"^ATNew Temporary Horse!^HEnjoy your temporary horse!<BR>When the time is up, it will be removed from your horses list.",
+			"price":250,
+			"minutes":120,
+			"horse":{
+				"breed":16,
+				"name":"Fell Pony",
+				"exp":50,
+				"color":"bay",
+				"gender":"stallion",
+				"hands":53,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":35,"saddle_pad":37, "bridle":36},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		},
+		{
+			"lease_id":4, 
+			"button_id":"57c4",
+			"info":"^HA tacked trusty American Mustang that can temporarily travel with you for 1 game day (2 hours) for $500. Leased horses have limited options. They cannot enter arena events, or minigames, but they come fully tacked for riding!^T62hr American Mustang lease for $500^D57c4|LEASE^R1",
+			"on_lease":"^ATNew Temporary Horse!^HEnjoy your temporary horse!<BR>When the time is up, it will be removed from your horses list.",
+			"price":500,
+			"minutes":120,
+			"horse":{
+				"breed":29,
+				"name":"American Mustang",
+				"color":"palomino",
+				"gender":"stallion",
+				"exp":50,
+				"hands":59,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":272,"saddle_pad":273, "bridle":274},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		},
+		{
+			"lease_id":5,
+			"button_id":"57c7",
+			"info":"^HAn amazing creature, the UniPeg, can temporarily travel with you for 2 game days (4 hours) for $4,000,000.^T64hr UniPeg teamup for $4,000,000^D57c7|TEAM UP^R1",
+			"on_lease":"^ATNew Temporary UniPeg Teamup!^HYou can ride the UniPeg without tack. Use the chat command !WARP <I>LOCATION or PLAYERNAME</I> to ask the UniPeg to warp you places! It can also fly over any terrain including water! Enjoy!<BR>When the time is up, it will be removed from your horses list",
+			"price":4000000,
+			"minutes":240,
+			"horse":{
+				"breed":170,
+				"name":"UniPeg",
+				"color":"white",
+				"gender":"stallion",
+				"exp":1000,
+				"hands":70,
+				"basic_stats":{"health":1000,"hunger":1000,"thirst":1000,"mood":500,"energy":1000,"groom":200,"shoes":0}, 
+				"tack":{"saddle":null,"saddle_pad":null, "bridle":null},
+				"advanced_stats":{"speed":0,"strength":0,"conformation":0,"agility":0,"endurance":0,"inteligence":0,"personality":0}
+			}
+		}
+ ]
+}

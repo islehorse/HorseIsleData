@@ -1,0 +1,16 @@
+{
+ "inns":[
+	{"id":2,"rests_offered":[45],"meals_offered":[47,130],"buy_percent":125},
+	{"id":1,"rests_offered":[45,46],"meals_offered":[48,132],"buy_percent":110},
+	{"id":3,"rests_offered":[45,46],"meals_offered":[49,131],"buy_percent":110},
+	{"id":4,"rests_offered":[45],"meals_offered":[128,126],"buy_percent":127},
+	{"id":5,"rests_offered":[45,46],"meals_offered":[133,127],"buy_percent":110},
+	{"id":6,"rests_offered":[136],"meals_offered":[153],"buy_percent":100},
+	{"id":7,"rests_offered":[45,46],"meals_offered":[134,129],"buy_percent":115},
+	{"id":11,"rests_offered":[45,46],"meals_offered":[48,132,348],"buy_percent":127},
+	{"id":9,"rests_offered":[45],"meals_offered":[153,345,346,128],"buy_percent":110},
+	{"id":10,"rests_offered":[45,46],"meals_offered":[493,126,130,129],"buy_percent":115},
+	{"id":8,"rests_offered":[45,46],"meals_offered":[48,132,127],"buy_percent":120},
+	{"id":12,"rests_offered":[],"meals_offered":[129,126,132,537,348],"buy_percent":120}
+ ]
+}
