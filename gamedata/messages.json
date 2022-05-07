@@ -1125,7 +1125,10 @@
 				"male_his":"his",
 				
 				
-				"you_your":"your"
+				"neutral_your":"your",
+				
+				"neutral_their":"their",
+				"neutral_they":"They"
 				
 			}
 		},
