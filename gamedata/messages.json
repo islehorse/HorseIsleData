@@ -1187,7 +1187,7 @@
 		"seperator":"<BR>",
 	},
 	"chat":{
-		"server_annoucement":"<FONT COLOR='#880000'><B>SERVER MESSAGE:</B></FONT><FONT COLOR='#0000FF'> %MESSAGE%</FONT>"
+		"server_annoucement":"<FONT COLOR='#880000'><B>SERVER MESSAGE:</B></FONT><FONT COLOR='#0000FF'> %MESSAGE%</FONT>",
 		"dm_moderator":"[<FONT COLOR='#006600'>mod</FONT>]",
 		"dm_autoreply":"[autoreply]",
 		"for_others":{
