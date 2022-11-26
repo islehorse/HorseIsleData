@@ -1,0 +1,5 @@
+{
+	"hisp_specific": {
+		"HISP_help_command_usage_format":"<B><FONT COLOR='#800000'>%PREFIX%%COMMANDNAME%</FONT></B> <B>%USAGE%</B>"
+	}
+}
