@@ -1,0 +1,17 @@
+https://hi1.horseisle.com/dev/moderatoractions.php?SERVER=pinto&VID=<violation id>&S=0&U=<user id> -- view actions by mods
+https://hi1.horseisle.com/dev/abusereview.php -- abuse reports viewing
+
+http://pinto.horseisle.com/web/drawperf.php -- performance graph
+
+http://hi1.horseisle.com/sql234 -- phpmyadmin
+https://hi1.horseisle.com/web/news.php?NEWSID= <news id>
+
+http://pinto.horseisle.com/web/searchlogs.php
+
+https://pinto.horseisle.com/pintoserver.php
+
+https://pinto.horseisle.com/chatfilter.php
+
+http://master.horseisle.com/dev/chatrate.php
+
+https://hi1.horseisle.com/web/forums.php?FORUM=SUPPORT&VIEWID=86160&UNLOCK=1
