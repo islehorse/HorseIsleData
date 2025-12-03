@@ -73,5 +73,5 @@
 		{"id":72,"riddle":"I won't fall apart while moving, as my name might suggest.","answers":["Walkaloosa"],"reason":"Name makes it sound like it would come loose while walking."},
 		{"id":73,"riddle":"There. In few words: what breed?","answers":["Tersky"],"reason":"When one says something in as few words as possible, one is being \"terse.\""},
 		{"id":74,"riddle":"No, I'm not made of French maize! I'm an old, proud breed.","answers":["Norman Cob"],"reason":"Normandy is a coastal region of France, and maize grows on a cob."}
-	],
+	]
 }

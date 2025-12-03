@@ -71,67 +71,67 @@
 			"id": 1,
 			"cost": 50000,
 			"title": "Horse Stable Barn",
-			"description": "This nice barn is big enough to allow you to own 4 more horses",
+			"description": "This nice barn is big enough to allow you to own 4 more horses"
 		  },
 		  {
 			"id": 2,
 			"cost": 25000,
 			"title": "Water Well",
-			"description": "Having a well automatically waters all of your horses and yourself whenever you are here",
+			"description": "Having a well automatically waters all of your horses and yourself whenever you are here"
 		  },
 		  {
 			"id": 3,
 			"cost": 100000,
 			"title": "Grain Silo",
-			"description": "Building a grain silo automatically feeds your horses",
+			"description": "Building a grain silo automatically feeds your horses"
 		  },
 		  {
 			"id": 4,
 			"cost": 50000,
 			"title": "Shed",
-			"description": "A shed is a great place to store excess stuff.   You can carry up to 20 more items in your inventory. (Max 2 sheds.)",
+			"description": "A shed is a great place to store excess stuff.   You can carry up to 20 more items in your inventory. (Max 2 sheds.)"
 		  },
 		  {
 			"id": 5,
 			"cost": 5000,
 			"title": "Flower Garden",
-			"description": "A simple, pretty flower garden.  It's just nice to look at",
+			"description": "A simple, pretty flower garden.  It's just nice to look at"
 		  },
 		  {
 			"id": 6,
 			"cost": 100000,
 			"title": "Training Pen",
-			"description": "The training pen allows for free horse training once per game day. (Max 1 training pen.)",
+			"description": "The training pen allows for free horse training once per game day. (Max 1 training pen.)"
 		  },
 		  {
 			"id": 7,
 			"cost": 50000,
 			"title": "Wagon",
-			"description": "Building a wagon provides you free transport to the nearest wagon station and free use of wagons",
+			"description": "Building a wagon provides you free transport to the nearest wagon station and free use of wagons"
 		  },
 		  {
 			"id": 8,
 			"cost": 120000,
 			"title": "Windmill",
-			"description": "A windmill automatically makes you $10,000 of money every game day",
+			"description": "A windmill automatically makes you $10,000 of money every game day"
 		  },
 		  {
 			"id": 9,
 			"cost": 15000,
 			"title": "Vegetable Garden",
-			"description": "The garden automatically feeds the owner whenever they visit",
+			"description": "The garden automatically feeds the owner whenever they visit"
 		  },
 		  {
 			"id": 10,
 			"cost": 500000,
 			"title": "Horse Stable Big Barn",
-			"description": "This larger barn is big enough to allow you to own 8 more horses",
+			"description": "This larger barn is big enough to allow you to own 8 more horses"
 		  },
 		  {
 			"id": 11,
 			"cost": 5000000,
 			"title": "Horse Stable Gold Barn",
-			"description": "This large, fancy barn is big enough to allow you to own 12 more horses",
+			"description": "This large, fancy barn is big enough to allow you to own 12 more horses"
 		  }
 		]
 	},

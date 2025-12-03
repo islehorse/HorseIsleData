@@ -1,0 +1,245 @@
+=========================================QUEST / ADVENTURES MANUAL============================================
+
+OVERVIEW:
+About 1/3 of the Fun of the game should be lots of "Quests" Or "Adventures".
+These are "Events"  That are activated by Talking with a NPC script (resident of horseisle) Or
+using one of the TOOLS at a particular x,y in the world.
+
+HOW MANY? WHERE?
+MOST non shops (cabin owners) should have quests.  And a few shops owners should have quests.
+So ,  store owners can give info on the products they sell, tips, etc ,  rather than lots of quests.
+But most non-shop NPCS should offer quests,  or take part in them some way.  to make them worth talking to.
+
+QUEST TOOLS: 
+  Shovel - For digging for something buried at the location
+  Rake - For uncovering SOmething hidden in leaves/ brush /tall grass/flowers/snow /sand
+  Binoculars - For Searching a location for something you cant normally see, Up in a tree, or off to the sides a it, etc..
+  Magnifying Glass - For finding small details, clues/tiny things at a location (could be used inside buildings!)
+
+QUEST IDEA EXAMPLES: (lots more,  be creative in structure for variation)
+  #1: Object Conversion - NPC takes one object and some money? and converts it to something better
+     Variation: Object building, NPC takes 2 objects,  and combines them into something else for you!
+     Variation: Object dissassemble, NPC takes an object, and gives you 2 parts out of it?
+  #2: Delivery - NPC askes you to deliver an object to someone else,  gives you unique quest object.
+        Other NPC requires that unique quest object - Can be continued in reverse By using "REQUIRED Quests"
+  #3: Find something an NPC has had buried, or something buried that they want and give hints to.
+  #4: NPC will buy an object at a premium..  Logs up in chillton? 
+  #5: Paying NPC's Money or desired object for Helpful Information - Buried treasure - hidden npc's - forest maze locations
+     Variations: $ for tips on Pyramid maze's - $ for tips on AntHill Quests
+  #6: NPC gives something cheap to the player for free, just to be kind (offering Tea) Limit to ex. 5 times
+     Variation: if this is something special,  someone somewhere else may want it!
+  #7: Player can be asked to find clues in a certain building or Place (Using Magnifying Glass)
+  #8: Player can be asked to find something lost on the forest floor,  or in tall grass, etc.. by using a rake
+  #9: Player Can search a particular Location For Objects/info Using Binoculars
+
+
+
+REWARDS FOR COMPLETING A QUEST:
+Award "Experience"  for quests that #1: are limited in repeats and tracked, #2: are a little difficult.
+For finding the Fin's anchor and bringing it back,  maybe 50 experience.  For doing something more 
+complicated,  maybe 200 All quests should be "Medium intelligence"   Nothing too hard.  and also 
+should not require using a tool more than 10-20 times to search. Example:  Rather than saying: "It's 
+buried in eartip forest" - say "It's buried in Eastern Eartip forest" - which is only about 8 tiles
+Try to be as clear as possible: on a delievery quest, rather than just saying,  please deliver to bob 
+in flipperton, say "bob's small cabin in the southern end of flipperton"
+
+Nothing of value should really be given away for free too many times.  A few cups of tea is good,  but
+ not unlimited. And anything valuable,  should be limited.  and hopefully its a reward for doing SOMETHING.
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+   CREATING A QUEST OPTIONS WALKTHROUGH:
+-----------------------------------------------------------------------------------------------------
+
+MISC NOTES: Please be descriptive add good notes to each quest.  When we get 100's of quests,  they 
+will be a pain to sort through. Please put Main character's name, and a description of the transaction
+
+ADVENTURE TITLE: Very Few Quests Are titled, Only the last step of an "Adventure Quest" Should be titled.
+  IF given a title,  this quest shows up as completed or not in players ADVENTURE LOG (under stats)
+  Titled adventures are ones that can Only Be COMPLETED ONCE, and they Award Quest Points.
+  These are the "Fun" Adventures,  Helping someone out, etc.  Try to title the adventure starting with the
+  Main NPC/residents name. So that A player can figure out where to start the adventure.
+  
+
+ALT ACTIVATION: Alternate ways of activating the "Action"
+    Selecting SHOVEL and an x,y   (Get X,Y by using %? admin command!)  WIll cause the action to take place
+          when a player DIGS at that spot
+    like wise RAKE rewuires a raking at that spot, etc.
+-------------------------------
+TRACK PLAYER COMPLETIONS: whter or not to keep track of how many times an action has been done.
+  Normally It's YES and 1 time.  For instance, digging up something that buried,  if it was untracked,
+  A person could continue to dig the same object up over and over.
+  Instances for not Trackes,  with 1 repeat:
+       Character handing out tea - to be polite,  you may give it out 5 times,  and then stop.  This is
+              done with TRACKING YES,  and 5 repeats.
+       Character buying logs from you at a premium. .  No need to track this at all,  it's just a simple
+              transaction,  that can be completed a thousand times if they want.
+
+MONEY REQUIRED: Player must give this money to complete quest (buying something from npc)
+
+COMPLETED QUEST REQUIRED: This quest ID must have already been completed by player! It needs to have 
+           been a tracked quest, otherwise, It wont know!
+
+OBJECTS REQUIRED: Player must give these objects to complete quest
+
+FAIL RESPONSE: Character, or status says this when player does not meet the requirements above.
+-------------------------------
+MONEY GAINED: player given this $$ after completing
+
+QUEST POINTS GAINED: For Titled Quest only,  after successfully completing an adventure
+
+OBJECT GAINED: player given these objects on success
+
+SET FUTURE NPC CHATPOINT: From now on, This character will Start talking to you At this Chatpoint instead 
+      of normal 0.  This is great for having them say something new,  or start an entire new conversation 
+      after completing a quest for them.
+
+JUMP PLAYER TO: x,y  this allows for transporting a player someplace.  Galvin takes you on a boat ride to 
+      his island, etc..
+
+SUCCESS RESPONSE: Character says this too you if successfully completed
+
+SUCCESS INFO: This text is added to the bottom right chat box,  Good for recording the details of the Event.
+
+=====================================================================================
+
+
+Finally,  to attach the Quest to A NPC Chatscript,  After saving the Quest,  look in the List to find 
+it's ID number.  On a new chatpoint Put the Quest ID number all by itself on the chatpoint.   No need 
+to type anything for what the character will say,  becasue they will say either the FAIL RESPONSE  or 
+SUCCESS RESPONSE
+
+Make sure in your conversations,  the player knows what they are doing when activating a quest.
+The Player shoudl have to click a reply similar to "Sure, I'll buy an apple from you for $10!"
+and then that reply should jump them to the blank chatpoint with The Respective QUEST ID.
+
+
+
+whew... Lots of options, but setting them up is pretty easy. 
+    Ok..  Now for a few Creation walkthroughs:
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+        Want a character to give out a cup of coffee, up to 3 times?
+-----------------------------------------------------------------------------------------------------
+  1) make a new quest.
+  2) title it "Bob gives visitors Coffee, up to 3 times"
+       (nice  and descriptive)
+  3) Set TRACK PLAYER COMPLETIONS=YES  Repeats=3
+       (this makes sure they can only get 3 cups)
+  4) Set Fail Response: "Sorry, I've given you too much coffee."
+       ( the only way this quest can fail,  is if its done too much, so say so)
+  5) Set Object Gained:  COFFEE
+       ( actual object given to player)
+  6) Set SUCCESS RESPONSE: "There you go,  enjoy the coffee."
+       ( what character says)
+  7) Set SUCCESS INFO: "Bob gave you a Coffee."]
+       ( nice descriptive info line)
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+    Character Buys a Log from you for $50, unlimited number of times
+-----------------------------------------------------------------------------------------------
+  1) Make a new Quest 
+  2) Title it "Bob buys logs from players for $50"
+  3) Set TRACK PLAYER COMPLETIONS TO=NO
+         (we dont care how many times this takes place)
+  4) Object Required: LOG
+         (this is what player must give)
+  5) Set FAIL RESPONSE: "You do not have any logs!"
+         ( the only way this could fail is if player doesnt have any logs)
+  6) Money GAINED: 50
+         (for the log,  player gets $50)
+  7) SUCCESS RESPONSE:  "Thanks for the log!"
+         (character says this)
+  8) SUCCESS INFO: "Bob gave you $50 for a Log."
+         (descriptive notes recorded in chat box)
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+      Character Believes someone in south end of town has Stolen His Apple Pie,  Find clues!
+        -this will need 2 quests/actions, one to find the clue,  another to give it to Character
+------------------------------------------------------------------------------------------------
+
+QUEST/ACTION #1
+  1) Make a new quest
+  2) Notes: Find a CLue for Bob in Claire's Cabin that she stole his pie!
+  3) QUEST TITLE:  LEAVE BLANK!!  this is not the end of the quest, so dont complete it here
+  4) ALT ACTIVATION: MAGNIFYING GLASS  x,y = location of cabin that contains the clue
+  5) TRACK PLAYER COMPLETIONS: YES  1 completion
+  6) FAIL RESPONSE: "You must have alrready found the clue"
+  8) SUCCESS RESPONSE: "You have found a Clue for bob!"
+  9) SUCCESS INFO: "You found Apple Pie Crumbs in Claires Cabin."
+
+QUEST ACTION #2:
+  to set this up,  add another Possible reply to the first thing the character says,
+   have it say " I FOUND BREAD CRUMBS IN CLAIRES CABIN!"
+  At the end of the reply set the REQ (Requires Quest Id completed to show) to The QUEST above!
+  Now,  the only time that reply can be seen is if they have already found the clue.
+
+  Set the jumppoint for that REPLY to a blank line containing the following QUEST ID:
+  1) make a new quest
+  2) Misc Notes: Tell bob about the clue found in claires cabin
+  3) QUEST TITLE: The Mystery of Bob's Missing Pie
+       (this will be an actual adventure quest, tracked and shown in log)
+  4) TRACK PLAYER COMPLETIONS: YES - 1 COmpletion
+  5) COMPLETED QUEST REQUIRED:  (Quest id from above)
+        (requires that player actually found the clue)
+  6) FAIL RESPONSE: I don't think you found proof of this?
+  7) MONEY GAINED: $500 
+        ( a nice little reward for work)
+  8) Quest points gained: 50
+        (wasn't tooo much work,  it was in same town, and only had to search maybe 5 cabins)
+  9) SET FUTURE NPC STARTING POINT: CHATPOINT ??? 
+        (this chatpoint is one at the bottom which just says: Thanks much for your help earlier!")
+ 10)SUCCESS RPEPLY:  Thansk so much for your help finding who stole my pie!!
+ 11) SUCCESSS INFO:  You completed Bob's Mystery Quest! you earned $500 and 50 quest points.
+
+---------------------------------------------------------------------------------------------------
+ See the existing Quests for more examples 
+
+
+
+
+
+
+
+
+
+
+NEW CUSTOM QUEST OBJECTS!   If you want a new object made specific for your quest,  Cool!
+Just tell Joe to make whatever you need.  About 1/2 of adventure quests will prolly have thier own object.
+So,  Just Give me the name of the object,  and Description,  And I'll set it right up :)
+
+FOr instance A "Love note to suzy"  is an object i could make quick.  Then you could use it in your quest.
+-Joe
+

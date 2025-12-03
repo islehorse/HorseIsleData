@@ -7,7 +7,7 @@
 	"profile":{
 		"save":"Your profile changes were saved.",
 		"too_long":"Profile TOO LONG, 4,000 char max!",
-		"blocked":"Profile NOT SAVED, Chat Violations Present! (%REASON%)",		
+		"blocked":"Profile NOT SAVED, Chat Violations Present! (%REASON%)"
 	},
 	"private_notes_save":"Saved Private Notes.",
 	"buddy_request":"Attempting to Add Buddy.  The other player must click ADD BUDDY as well. (Many players reserve this for just a couple players so don't feel insulted if they do not).",
@@ -72,13 +72,13 @@
 			"event_end":"<B>TIME IS UP:</B> No one answered the Chat Riddle in time.",
 			"event_won_others":"<B>RIDDLE SOLVED!</B> By player %PLAYERNAME%!",
 			"event_won_you":"<B>YOU SOLVED THE RIDDLE!</B> You earned: $%PRIZE%!",
-			"event_solved_already":"You have already solved this real time riddle.",
+			"event_solved_already":"You have already solved this real time riddle."
 		},
 		"tack_shop_giveaway":{
 			"event_start":"<B>TACK SHOP HORSE GIVEAWAY:</B> A %COLOR% %BREED% %GENDER% will be given away to one random person at %SHOPNAME% in %TOWN% in 2 minutes!!!",
 			"event_1min":"<B>TACK SHOP HORSE GIVEAWAY:</B> A %COLOR% %BREED% %GENDER% will be given away to one random person at %SHOPNAME% in %TOWN% in 1 minute!!!",
 			"event_won":"<B>TACK SHOP HORSE GIVEAWAY:</B> %PLAYERNAME% has won the %BREED% horse Giveaway at %SHOPNAME% in %TOWN%! Thanks to all %PLAYERCOUNT% players that attended the event.",
-			"event_end":"<B>TACK SHOP HORSE GIVEAWAY:</B> No one was at %SHOPNAME% in %TOWN% to win the horse.  Oh well, event is over.",
+			"event_end":"<B>TACK SHOP HORSE GIVEAWAY:</B> No one was at %SHOPNAME% in %TOWN% to win the horse.  Oh well, event is over."
 		},
 		"real_time_quiz":{
 			"event_meta":"^ATReal Time Quiz - Q: %QUESTIONNUMBER%/8^HFirst player to answer all 8 questions wins!<BR>You have made %MISTAKES% mistakes so far.<BR><BR>Question #%QUESTIONNUMBER% (Category: %CATEGORY%):<BR><B>%QUESTIONTEXT%</B>^PLAnswer (simplest form):|^PS15|SUBMIT^R3^LType QUIT if you want to give up.^R1",
@@ -90,8 +90,8 @@
 			"event_unavailable":"Realtime quiz is currently unavailable",
 			"event_entered":"You have entered the Realtime Quiz. Good luck!",
 			"event_entered_already":"Realtime quiz was already entered.",
-			"event_quit":"Realtime quiz was quit already.  Only one try per Quiz.",
-		},
+			"event_quit":"Realtime quiz was quit already.  Only one try per Quiz."
+		}
 	},
 	"horse_leaser":{
 		"cant_afford":"You cannot afford the lease fee.",
@@ -123,7 +123,7 @@
 	},
 	"fountain":{
 		"drank_your_fill":"You drank your fill from the fountain.",
-		"dropped_money":"Oh no!!!  While drinking you accidentally dropped $%MONEY% into the fountain!!  There is no way to get it back!",
+		"dropped_money":"Oh no!!!  While drinking you accidentally dropped $%MONEY% into the fountain!!  There is no way to get it back!"
 	},
 	"consume":{
 		"consumed_item_format":"GULP! You consumed the %ITEM%.",
@@ -270,7 +270,7 @@
 			"cant_send_pm_muted":"You cannot send private chats because you have muted that channel.  Try !UNMUTE PM",
 			"cant_send_br_muted":"You cannot add buddies while muting your Buddy Request channel.  Try !UNMUTE BR.",
 			
-			"cant_send_pm_player_muted":"<FONT COLOR='#0000FF'><B>You cannot send a chat to %USERNAME% because you have muted them. Unmute them from the player list if you wish to chat.</B></FONT>",
+			"cant_send_pm_player_muted":"<FONT COLOR='#0000FF'><B>You cannot send a chat to %USERNAME% because you have muted them. Unmute them from the player list if you wish to chat.</B></FONT>"
 		},
 		"auto_sell":{
 			"not_standing_sameplace":"You must be at the same place as the seller or at their ranch.",
@@ -310,7 +310,7 @@
 			"pm_button":"^B1P%PLAYERNAME%",
 			"tag":{
 				"tag_player":"<B>TAG!!</B> %PLAYERNAME% is now it! (tagged by %USERNAME%)",
-				"total_buddies":" [%TOTALBUDDIESON% buds]",
+				"total_buddies":" [%TOTALBUDDIESON% buds]"
 			},
 			"add_buddy":{
 				"add_pending":"Attempting to Add Buddy.  The other player must click ADD BUDDY as well. (Many players reserve this for just a couple players so don't feel insulted if they do not).",
@@ -322,7 +322,7 @@
 				"socials_button":"^B5%ID%%SOCIALNAME%",
 				"socials_message":"<FONT COLOR='#BA0042'>* %SOCIALMSG% *</FONT>",
 				"socials_menu_type":"^L%TYPE%:^R1",
-				"no_longer_nearby":"Player is no longer nearby!",
+				"no_longer_nearby":"Player is no longer nearby!"
 			},
 			"trade":{
 				"trading_with":"^ATTrading with %PLAYERNAME%",
@@ -393,8 +393,8 @@
 				"trade_not_allowed_while_other_is_bidding":"No trades allowed while other player bidding on a Horse at auction.",
 				
 				"trade_other_cannot_carry_that_much":"The other player can not carry that much more money",
-				"trade_you_cannot_carry_that_much":"You would not be able to carry all that money if trade completed. (2.1B max!)",
-			},
+				"trade_you_cannot_carry_that_much":"You would not be able to carry all that money if trade completed. (2.1B max!)"
+			}
 		},
 		"auction":{
 			"auctions_running":"The following auctions are running:<BR>",
@@ -424,7 +424,7 @@
 			"cant_afford_listing":"You cannot afford the auction fee.",
 			"brought_horse":"You bought a horse at auction for $%MONEY%",
 			"no_one_brought":"No one bought your horse at auction.",
-			"horse_sold":"You sold a horse at auction for $%MONEY%",
+			"horse_sold":"You sold a horse at auction for $%MONEY%"
 			
 		},
 		"horse_games":{
@@ -437,7 +437,7 @@
 			"mail_se":"MAIL",
 			"mail_read":"<I>Reading a Mail Message from Player <BR> By: %PLAYERNAME%  (DATE:%DATE%) :</I><BR><BR><CENTER><B>%SUBJECT%</B></CENTER><BR>%MESSAGE%<BR><BR>^T5To get rid of message:^B4Z%RANDOMID%^R5",
 			"mail_select":"<B>Select from the following:</B>",
-			"mail_entry":"^I276^T6%SUBJECT% by %PLAYERNAME%^B4VR%RANDOMID%^R1",
+			"mail_entry":"^I276^T6%SUBJECT% by %PLAYERNAME%^B4VR%RANDOMID%^R1"
 		},
 		"city_hall":{
 			"menu":"The little post office here can deliver a message to someone on Horse Isle.  Postage is $3 per message.^T5Write a message to another player?^D2|COMPOSE^R1^LAlso, the hall has records on several subjects:^R1^T4View current Horses up for Sale^D29|AUTOSELL HORSES^R1^T4View top valued ranches^D14|RANCH RECORDS^R1^T4View richest players^D15|MONEY RECORDS^R1^T4View top spoiled horses^D61|SPOILED HORSES^R1^T4View most adventurous players^D16|QUEST RECORDS^R1^T4View most experienced players^D17|EXPER RECORDS^R1^T4View most active minigamers^D18|GAMES RECORDS^R1^T4View top players' horses^D19|HORSE RECORDS^R1",		
@@ -457,7 +457,7 @@
 			},
 			"richest_players":{
 				"top_25":"25 Richest Players (money + bank balance):<BR>(ranch and equipment is worth LOTS and not counted in this list)<BR>",
-				"rich_player_format":"#%PLACING%: <B>$%MONEY%</B> - %PLAYERNAME%<BR>",
+				"rich_player_format":"#%PLACING%: <B>$%MONEY%</B> - %PLAYERNAME%<BR>"
 			},
 			"spoiled_horses":{
 				"top_100":"100 Top Spoiled Horses<BR>",
@@ -590,7 +590,7 @@
 				"description_too_long":"4000 character Max for Ranch description!",
 				
 				"title_contains_violations":"Title NOT SAVED, Chat Violations Present!",
-				"desc_contains_violations":"Description NOT SAVED, Chat Violations Present! (%REASON%)",
+				"desc_contains_violations":"Description NOT SAVED, Chat Violations Present! (%REASON%)"
 			},
 			"build":{
 				"build_on_this_spot":"You can build one of the following buildings on this spot:",
@@ -627,7 +627,7 @@
 				"train_cant_train":"<BR><B>%HORSENAME%</B>: Horse needs to rest %TIME% game minutes.",
 				"fully_rested":"<BR>You have a Barn.  All of your horses are fully relaxed now.",
 				"wagon_used":"Your wagon dropped you off at the nearest station."
-			},
+			}
 		},
 		"riddler":{
 			"riddle_format":"Welcome to an Enigmatic Perplexing Conundrum!<BR>(Answer with the simplest form possible. There is no penalty for wrong answers. DO NOT discuss the riddles in Global Chat)<BR><BR><BR><B>The following Riddling Riddle Riddles you:</B><BR>%RIDDLE%^PLAnswer Riddle:|^PS6|SOLVE RIDDLE",
@@ -652,7 +652,7 @@
 			"plz_clear_load":"Drawing room memory is full.  Please CLEAR to start a new drawing.",
 			"plz_clear_draw":"Drawing room memory is full. Your additional drawing is not being seen. Please CLEAR to start a new drawing.",
 			"not_subscribed_draw":"Drawing not sent to other players when you are not a subscriber.",
-			"not_subscribed_load":"Cannot load drawings when you are not a subscriber.",
+			"not_subscribed_load":"Cannot load drawings when you are not a subscriber."
 		},
 		"groomer":{
 			"groomed_best_it_can":"Your horse %HORSENAME% is now groomed as best as this groomer can!",
@@ -663,7 +663,7 @@
 			"currently_at":"^LYour horse %HORSENAME%: groom currently %TOTAL%/%MAX%^R1",
 			"apply_service":"^I258^T8Apply grooming services for $%PRICE% ^B3G%RANDOMID%^R1",
 			"apply_all":"^R1^I258^T8Groom all %COUNT% horses for $%PRICE% ^B3g^R1",
-			"cannot_improve":"^I258^T9This groomer cannot improve this horse's groom.^R1",
+			"cannot_improve":"^I258^T9This groomer cannot improve this horse's groom.^R1"
 		},
 		"farrier":{
 			"current_shoes":"^LYour horse %HORSENAME%: shoes currently %TOTAL%/%MAX%^R1",
@@ -713,7 +713,7 @@
 		},
 		"mud_hole":{
 			"no_horses":"Big muddy area here....Luckily you don't have any horses, because if you did they may have gotten dirty.",
-			"ruined_groom":"Big muddy area here....OH NO!  Your horse '%HORSENAME%' rolled around in the mud, ruining its groom completely..",
+			"ruined_groom":"Big muddy area here....OH NO!  Your horse '%HORSENAME%' rolled around in the mud, ruining its groom completely.."
 		},
 		"whisperer":{
 			"horse_locate_meta":"^T6%BREEDNAME%^D32c%BREEDID%|LOCATE^R1",
@@ -804,7 +804,7 @@
 				"feed_special_personality":"Amazingly, your horse suddenly has slightly more personality!",
 				"feed_special_inteligence":"Wonderously, your horse suddenly is slightly smarter!",
 				"feed_special_magic_bean":"Shockingly, your horse suddenly has changed height from %PREVHANDS%h to %NEWHANDS%h!",
-				"feed_special_magic_droplet":"Before your eyes, your horse has changed color from %PREVCOLOR% to %NEWCOLOR%!",
+				"feed_special_magic_droplet":"Before your eyes, your horse has changed color from %PREVCOLOR% to %NEWCOLOR%!"
 			},
 			"horse_inventory":{
 				"your_horse_format":"Your horse: <B>%NAME%:</B><BR>",
@@ -861,8 +861,8 @@
 				"you_have_following_tack":"^LYou have the following tack in your inventory:^R1",
 				"you_have_following_camel_tack":"^LYou have the following CAMEL tack in your inventory:^R1",
 				"you_have_following_llama_tack":"^LYou have the following LLAMA tack in your inventory:^R1",
-				"equip_tack":"^I%ICONID%^T5[ %COUNT% ] %NAME%^B3K%ID%^R1",
-			},
+				"equip_tack":"^I%ICONID%^T5[ %COUNT% ] %NAME%^B3K%ID%^R1"
+			}
 		},
 		"libary":{
 			"main_menu":"Welcome to the Library!  You can research different subjects.<BR>^T2Search Residents: ^D30|SEARCH NPC^R1^T2Search Ranches: ^D31|SEARCH RANCH^R1^T2Research Horses: ^D4|VIEW BREEDS^R1^T2Research Tack: ^D9|VIEW TACK^R1^T2Research Companions: ^D10|VIEW COMPANIONS^R1^T2Research Mini-Games: ^D12|VIEW MINIGAMES^R1^T2Research Locations: ^D22|VIEW LOCATIONS^R1^T2Research Awards: ^D23|VIEW AWARDS^R1^T2Read Books: ^D38|READ BOOKS^R1",
@@ -910,7 +910,7 @@
 			},
 			"tack":{
 				"view_tack_set":"^I%ICONID%^T7View %SETNAME% Tack Set:^BM%SWF%^R1^H",
-				"set_peice_format":"<B>%ITEMNAME%</B>: %ITEMDESC%<BR>",
+				"set_peice_format":"<B>%ITEMNAME%</B>: %ITEMDESC%<BR>"
 			}
 		},
 		"multihorses":{
@@ -943,7 +943,7 @@
 		"inn":{
 			"buy_meal":"^LYou can buy the following meals:^R1",
 			"buy_rest":"^LWe also offer the following rest options:^R1",
-			"inn_entry":"^I%ICON%^T4%NAME% $%PRICE%^B4BC%ID%^B4LN%ID%^R1",
+			"inn_entry":"^I%ICON%^T4%NAME% $%PRICE%^B4BC%ID%^B4LN%ID%^R1"
 		},
 		"awards_page":{
 			"awards_header":"^ATYour Awards Earned^H",
@@ -960,7 +960,7 @@
 			"game_besttime_header":"<B>Top 20 Best Times for %GAMETITLE%</B><BR>",
 			"game_besttime_format":"#%RANKING% Best Time: %SCORE% sec  --  %USERNAME% [played %TOTALPLAYS% times]<BR>",
 			"game_winloose_header":"<B>Top 20 Game Winners for %GAMETITLE%</B><BR>",
-			"game_winloose_format":"#%RANKING%: %WINS% Wins (%LOSES% Losses) --  %USERNAME% [played %TOTALPLAYS% times]<BR>",
+			"game_winloose_format":"#%RANKING%: %WINS% Wins (%LOSES% Losses) --  %USERNAME% [played %TOTALPLAYS% times]<BR>"
 		},
 		"quest_log":{
 			"header_meta":"^ATYour Horse Isle Adventure Log^H",
@@ -968,7 +968,7 @@
 			"not_complete":"<FONT COLOR='#880000'><B>NOT DONE</B></FONT>",
 			"not_avalible":"<FONT COLOR='#888888'><B>UNAVAILABLE</B></FONT>",
 			"completed":"<FONT COLOR='#008800'><B>COMPLETED</B></FONT>",
-			"footer_format":"<BR>You have completed <B>%TOTALCOMPLETED%</B> of <B>%TOTALQUESTS%</B> total adventures   (<B>%TOTALPERCENT%%</B>)<BR>You have earned <B>%YOURQP%qp</B> of <B>%MAXQP%qp</B> total   (<B>%QPERCENT%%</B>)<BR>(qp = quest points, they are a score of difficulty for each adventure)",
+			"footer_format":"<BR>You have completed <B>%TOTALCOMPLETED%</B> of <B>%TOTALQUESTS%</B> total adventures   (<B>%TOTALPERCENT%%</B>)<BR>You have earned <B>%YOURQP%qp</B> of <B>%MAXQP%qp</B> total   (<B>%QPERCENT%%</B>)<BR>(qp = quest points, they are a score of difficulty for each adventure)"
 		},
 		"abuse_report":{
 			"options_format":"<B>Horse Isle Abuse Reports:</B><BR>Abuse reports are serious. Think of it as reporting to the police.<BR>Please, only serious issues! It takes a lot of time to deal with these.<BR>What type of violation is this:<BR>%REASONS%^M^Z",
@@ -1047,7 +1047,7 @@
 				{"id":"PotOfGold","value":"Pot Of Golds"},
 				{"id":"GameUpdates","value":"Game Update Resets"},
 				{"id":"UnipegTeamup","value":"Uni Peg Teamups"}
-			],
+			]
 		},
 		"stats_page":{
 			"stats_bar_format":"^ATPlayer %USERNAME%'s Details^H",
@@ -1079,7 +1079,7 @@
 				"remove_head":"^B4X1",
 				"remove_body":"^B4X2",
 				"remove_legs":"^B4X3",
-				"remove_feet":"^B4X4",
+				"remove_feet":"^B4X4"
 			},
 			"jewelry":{
 				"slot_1":"^I%ICON%^T7%ITEM%%BUTTON%^R1",
@@ -1135,7 +1135,7 @@
 		"shop":{
 			"selling":"^LThings I am selling:",
 			"sell_me":"^LThings you can SELL to me:",
-			"infinity":"~",
+			"infinity":"~"
 		},
 		"hay_pile":{
 			"no_pitchfork":"Unfortunately you do not have a pitchfork to gather hay!",
@@ -1167,7 +1167,7 @@
 			"buy_5_button":"^B4B5%ITEMID%",
 			"buy_25_button":"^B4B2%ITEMID%",
 			"sell_button":"^B4S%RANDOMID%",
-			"sell_all_button":"^B4A%ITEMID%",
+			"sell_all_button":"^B4A%ITEMID%"
 			
 		},
 		"dropped_items":{
@@ -1184,7 +1184,7 @@
 			"south":"<B>South:</B> ",
 			"north":"<B>North:</B> "
 		},
-		"seperator":"<BR>",
+		"seperator":"<BR>"
 	},
 	"chat":{
 		"server_annoucement":"<FONT COLOR='#880000'><B>SERVER MESSAGE:</B></FONT><FONT COLOR='#0000FF'> %MESSAGE%</FONT>",
@@ -1200,7 +1200,7 @@
 			"here_format":"<FONT COLOR='#222222'><B>%USERNAME%:</B> %MESSAGE%</FONT>",
 			"near_format":"<B>%USERNAME%:</B> %MESSAGE%",
 			"isle_format":"<B>%USERNAME%:</B> %MESSAGE%",
-			"dm_format":"<FONT COLOR='#0000FF'><B>%USERNAME%%FORMATPART%:</B> %MESSAGE%</FONT>",
+			"dm_format":"<FONT COLOR='#0000FF'><B>%USERNAME%%FORMATPART%:</B> %MESSAGE%</FONT>"
 		},
 		
 		"for_sender":{
@@ -1291,8 +1291,7 @@
 			{"word":"gay","new_word":"happy"},
 			{"word":"boob","new_word":"dork"},
 			{"word":"damn","new_word":"dang"},
-			{"word":"suck","new_word":"ingurgitate"},
-			
+			{"word":"suck","new_word":"ingurgitate"}
 		],
 		"reason_messages":[
 			{"name":"profanity","message":"Profanity detected."},
