@@ -1,922 +1,3664 @@
 {
- "tile_paramaters":{
-	 "terrain_tiles": [
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":false,"tile_type":"WATER"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"BEACH"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"FOREST"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"SNOW"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"DESERT"},
-		{"passable":true,"tile_type":"DESERT"},
-		{"passable":true,"tile_type":"DESERT"},
-		{"passable":true,"tile_type":"DESERT"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"GRASS"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"JUNGLE"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"CLOUD"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"},
-		{"passable":true,"tile_type":"LAVA"}
-	],
-	 "overlay_tiles": [ 
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": false, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": false, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": false},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true},
-		 {"show_player": true, "passable": true}
-	]
- }
+    "tile_parameters": {
+        "terrain_tiles": [
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": false,
+                "tile_type": "WATER"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "BEACH"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "FOREST"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "SNOW"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "DESERT"
+            },
+            {
+                "passable": true,
+                "tile_type": "DESERT"
+            },
+            {
+                "passable": true,
+                "tile_type": "DESERT"
+            },
+            {
+                "passable": true,
+                "tile_type": "DESERT"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "GRASS"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "JUNGLE"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "CLOUD"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            },
+            {
+                "passable": true,
+                "tile_type": "LAVA"
+            }
+        ],
+        "overlay_tiles": [
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": false,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": false
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            },
+            {
+                "show_player": true,
+                "passable": true
+            }
+        ]
+    }
 }
