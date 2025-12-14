@@ -41,6 +41,13 @@ for i in range(0,len(gameData["places"]["waypoints"])):
 for i in range(0,len(gameData["places"]["special_tiles"])):
     gameData["places"]["special_tiles"][i]["x"] -= 4
     gameData["places"]["special_tiles"][i]["y"] -= 1
+    if gameData["places"]["special_tiles"][i]["code"] != None:
+        kvp = gameData["places"]["special_tiles"][i]["code"].split("-")
+        if len(kvp) >= 2:
+            k = kvp[1].split(",")
+            if len(k) == 2:
+                code = "-".join([ kvp[0], ",".join([ str(int(k[0]) - 4), str(int(k[1]) - 1)]) ])
+                gameData["places"]["special_tiles"][i]["code"] = code
     if gameData["places"]["special_tiles"][i]["exit_x"] != None:
         gameData["places"]["special_tiles"][i]["exit_x"] -= 4
     if gameData["places"]["special_tiles"][i]["exit_y"] != None:
