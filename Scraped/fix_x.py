@@ -86,10 +86,6 @@ for i in range(0,len(gameData["ranch"]["ranch_locations"])):
     gameData["ranch"]["ranch_locations"][i]["x"] -= 4
     gameData["ranch"]["ranch_locations"][i]["y"] -= 1
 
-for i in range(0,len(gameData["ranch"]["ranch_locations"])):
-    gameData["ranch"]["ranch_locations"][i]["x"] -= 4
-    gameData["ranch"]["ranch_locations"][i]["y"] -= 1
-    
 gameData["messages"]["new_user"]["starting_x"] -= 4
 gameData["messages"]["new_user"]["starting_y"] -= 1
 
@@ -109,4 +105,4 @@ for key in gameData.keys():
     part[key] = gameData[key]
     open("transrights/" + key+".json", "w").write(json.dumps(part, indent=4))
 
-#open("gamedata.json", "w").write(json.dumps(gameData))
+open("gamedata.json", "w").write(json.dumps(gameData))
