@@ -184,8 +184,8 @@
             "welcome_to_format": "Welcome to %PLACE%."
         },
         "tag": {
-            "for_sender": "<B>TAG!!</B> %USERNAME% is now it! (tagged by %TAGGER%) [%AMOUNT% buds]",
-            "for_others": "<B>TAG!!</B> %USERNAME% is now it! (tagged by %TAGGER%)"
+            "for_sender": "<B>TAG!!</B> %PLAYERNAME% is now it! (tagged by %USERNAME%) [%TOTALBUDDIESON% buds]",
+            "for_others": "<B>TAG!!</B> %PLAYERNAME% is now it! (tagged by %USERNAME%)"
         },
         "commands": {
             "mute_help": "Mute Channel Not Recognized. (ALL/ADS/GLOBAL/ISLAND/NEAR/HERE/BUDDY/PM/BR/SOCIALS/LOGINS)",
@@ -305,10 +305,6 @@
                 "buddy_button": "^B1B%PLAYERID%",
                 "tag_button": "^B1X%PLAYERID%",
                 "pm_button": "^B1P%PLAYERNAME%",
-                "tag": {
-                    "tag_player": "<B>TAG!!</B> %PLAYERNAME% is now it! (tagged by %USERNAME%)",
-                    "total_buddies": " [%TOTALBUDDIESON% buds]"
-                },
                 "add_buddy": {
                     "add_pending": "Attempting to Add Buddy.  The other player must click ADD BUDDY as well. (Many players reserve this for just a couple players so don't feel insulted if they do not).",
                     "other_pending": "%PLAYERNAME% is trying to add you as a buddy,  click ADD BUDDY to make them a buddy.",
